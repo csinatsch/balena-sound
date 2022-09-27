@@ -1,4 +1,4 @@
-FROM mikebrady/shairport-sync:3.3.8 as shairport
+FROM mikebrady/shairport-sync:latest as shairport
 WORKDIR /usr/src
 
 ENV DBUS_SYSTEM_BUS_ADDRESS=unix:path=/host/run/dbus/system_bus_socket
